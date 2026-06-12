@@ -61,7 +61,6 @@ Backend will run on `http://localhost:3000`
 - ✅ Contact Form - Visitors can send messages
 - ✅ REST API - Complete backend API endpoints
 - ✅ MongoDB Database - Data persistence storage
-- ✅ Mock Data Mode - Automatically switches to mock data when database is unavailable
 
 ## API Documentation
 
