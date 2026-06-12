@@ -2,6 +2,10 @@
 
 个人作品集全栈应用 - 使用 Vue 3 + Express + MongoDB 构建
 
+## 🌐 在线演示
+
+**网站地址：** http://1.14.193.193
+
 ## 技术栈
 
 ### 前端
@@ -50,11 +54,12 @@ npm run dev
 ## 功能特性
 
 - ✅ 响应式设计 - 支持移动端、平板和桌面端
-- ✅ 技能展示 - 可视化展示技能熟练度
+- ✅ 技能展示 - 展示9种核心技能（C#, Python, JavaScript, Vue.js, MySQL, Redis, Unity 3D, RAG, AI Agent）
 - ✅ 项目作品展示 - 展示个人项目和技术栈
 - ✅ 在线留言 - 访客可以发送留言
 - ✅ REST API - 完整的后端API接口
 - ✅ MongoDB数据库 - 数据持久化存储
+- ✅ 模拟数据模式 - 数据库不可用时自动切换到模拟数据
 
 ## API文档
 
@@ -62,16 +67,14 @@ npm run dev
 
 ## 部署
 
-详见 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
-
-## 在线演示
-
-- 前端: [待部署]
-- GitHub: https://github.com/SlienceLove/portfolio-fullstack
+- 宝塔Windows部署：[docs/DEPLOYMENT_BAOTA_WINDOWS.md](docs/DEPLOYMENT_BAOTA_WINDOWS.md)
+- 通用部署指南：[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
 
 ## 作者
 
-SlienceLove
+**Slience996** - 全栈开发工程师
+
+熟练掌握：C# | Python | Vue.js | MySQL | Redis
 
 ## License
 
