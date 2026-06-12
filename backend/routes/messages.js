@@ -24,6 +24,20 @@ router.post('/', async (req, res, next) => {
       });
     }
 
+    if (global.useMockData) {
+      return res.status(201).json({
+        success: true,
+        data: {
+          _id: Date.now().toString(),
+          name,
+          email,
+          content,
+          isRead: false,
+          createdAt: new Date(),
+        },
+      });
+    }
+
     const message = await Message.create({ name, email, content });
     res.status(201).json({
       success: true,
@@ -37,6 +51,13 @@ router.post('/', async (req, res, next) => {
 // 获取所有留言
 router.get('/', async (req, res, next) => {
   try {
+    if (global.useMockData) {
+      return res.json({
+        success: true,
+        data: [],
+      });
+    }
+
     const messages = await Message.find().sort({ createdAt: -1 });
     res.json({
       success: true,

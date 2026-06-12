@@ -4,10 +4,11 @@
     <section class="hero-section min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
       <div class="container mx-auto px-4 text-center">
         <div class="mb-8">
-          <img src="https://via.placeholder.com/150" alt="Profile" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
+          <img src="/avatar.jpg" alt="Profile" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg object-cover">
         </div>
-        <h1 class="text-5xl font-bold text-gray-800 mb-4">全栈开发工程师</h1>
-        <p class="text-xl text-gray-600 mb-8">熟练掌握 Vue.js | Node.js | MongoDB | Unity 3D</p>
+        <p class="text-3xl text-gray-500 uppercase tracking-wider mb-2 font-semibold">Slience996</p>
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">全栈开发工程师</h1>
+        <p class="text-xl text-gray-600 mb-8">熟练掌握 C# | Python | Vue.js | MySQL | Redis</p>
         <div class="flex gap-4 justify-center">
           <a href="#projects" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">查看作品</a>
           <a href="#contact" class="bg-white text-blue-600 px-8 py-3 rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition">联系我</a>
