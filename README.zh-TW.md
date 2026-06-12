@@ -1,6 +1,6 @@
 # Portfolio Fullstack Application
 
-[English](./README.en.md) | [简体中文](./README.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md)
+[English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md)
 
 個人作品集全端應用 - 使用 Vue 3 + Express + MongoDB 構建
 

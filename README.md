@@ -1,31 +1,31 @@
 # Portfolio Fullstack Application
 
-[English](./README.en.md) | [简体中文](./README.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md)
+[English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [日本語](./README.ja.md)
 
-个人作品集全栈应用 - 使用 Vue 3 + Express + MongoDB 构建
+Personal portfolio fullstack application - Built with Vue 3 + Express + MongoDB
 
-## 🌐 在线演示
+## 🌐 Live Demo
 
-**网站地址：** http://1.14.193.193
+**Website:** http://1.14.193.193
 
-## 技术栈
+## Tech Stack
 
-### 前端
+### Frontend
 - Vue 3 (Composition API)
 - Vite
 - Vue Router
 - Axios
 - TailwindCSS
 
-### 后端
+### Backend
 - Node.js
 - Express
 - MongoDB (Mongoose)
-- 阿里云OSS
+- Aliyun OSS
 
-## 本地运行
+## Local Development
 
-### 前端
+### Frontend
 
 ```bash
 cd frontend
@@ -33,49 +33,49 @@ npm install
 npm run dev
 ```
 
-前端将运行在 `http://localhost:5173`
+Frontend will run on `http://localhost:5173`
 
-### 后端
+### Backend
 
-1. 复制环境变量文件：
+1. Copy environment variables file:
 ```bash
 cd backend
 cp .env.example .env
 ```
 
-2. 编辑 `.env` 文件，填入您的MongoDB和阿里云OSS配置
+2. Edit `.env` file with your MongoDB and Aliyun OSS credentials
 
-3. 启动后端服务：
+3. Start backend server:
 ```bash
 npm install
 npm run dev
 ```
 
-后端将运行在 `http://localhost:3000`
+Backend will run on `http://localhost:3000`
 
-## 功能特性
+## Features
 
-- ✅ 响应式设计 - 支持移动端、平板和桌面端
-- ✅ 技能展示 - 展示9种核心技能（C#, Python, JavaScript, Vue.js, MySQL, Redis, Unity 3D, RAG, AI Agent）
-- ✅ 项目作品展示 - 展示个人项目和技术栈
-- ✅ 在线留言 - 访客可以发送留言
-- ✅ REST API - 完整的后端API接口
-- ✅ MongoDB数据库 - 数据持久化存储
+- ✅ Responsive Design - Supports mobile, tablet and desktop
+- ✅ Skills Showcase - Display 9 core skills (C#, Python, JavaScript, Vue.js, MySQL, Redis, Unity 3D, RAG, AI Agent)
+- ✅ Projects Portfolio - Showcase personal projects and tech stack
+- ✅ Contact Form - Visitors can send messages
+- ✅ REST API - Complete backend API endpoints
+- ✅ MongoDB Database - Data persistence storage
 
-## API文档
+## API Documentation
 
-详见 [docs/API.md](docs/API.md)
+See [docs/API.md](docs/API.md)
 
-## 部署
+## Deployment
 
-- 宝塔Windows部署：[docs/DEPLOYMENT_BAOTA_WINDOWS.md](docs/DEPLOYMENT_BAOTA_WINDOWS.md)
-- 通用部署指南：[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
+- Baota Windows Deployment: [docs/DEPLOYMENT_BAOTA_WINDOWS.md](docs/DEPLOYMENT_BAOTA_WINDOWS.md)
+- General Deployment Guide: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
 
-## 作者
+## Author
 
-**Slience996** - 全栈开发工程师
+**Slience996** - Full Stack Developer
 
-熟练掌握：C# | Python | Vue.js | MySQL | Redis
+Skills: C# | Python | Vue.js | MySQL | Redis
 
 ## License
 
